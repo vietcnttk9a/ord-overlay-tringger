@@ -1,0 +1,6 @@
+<ng-template>
+  <div class="menu-container" (mouseenter)="visiable$.next(true)"
+       (mouseleave)="visiable$.next(false)">
+    <ng-content></ng-content>
+  </div>
+</ng-template>
